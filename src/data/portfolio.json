@@ -12,7 +12,7 @@
   },
   {
     "title": "Rapid Ride Fight",
-    "imgUrl": "src/assets/react.svg",
+    "imgUrl": "assets/react.svg",
     "projectType": "School",
     "stack": [
       "OpenGL",
@@ -23,7 +23,7 @@
   },
   {
     "title": "Glowing Under",
-    "imgUrl": "vite.svg",
+    "imgUrl": "assets/vite.svg",
     "projectType": "School",
     "stack": [
       "OpenGL",
