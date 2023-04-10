@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Portfolio Website (this)",
+    "imgUrl": "https://th.bing.com/th/id/R.62289583b112419f3e05ee6b6fa9d300?rik=36yvhHE9RTt%2fuA&pid=ImgRaw&r=0",
+    "projectType": "Personal",
+    "stack": [
+      "React",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "link": "https://tedawf.com"
+  },
+  {
+    "title": "Rapid Ride Fight",
+    "imgUrl": "src/assets/react.svg",
+    "projectType": "School",
+    "stack": [
+      "OpenGL",
+      "C++",
+      "3D"
+    ],
+    "link": "https://tedawf.com"
+  },
+  {
+    "title": "Glowing Under",
+    "imgUrl": "vite.svg",
+    "projectType": "School",
+    "stack": [
+      "OpenGL",
+      "C++",
+      "2D"
+    ],
+    "link": "https://tedawf.com"
+  }
+]
