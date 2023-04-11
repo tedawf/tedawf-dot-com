@@ -1,0 +1,30 @@
+[
+  {
+    "year": "2022",
+    "title": "Application Developer Intern (Blockchain)",
+    "company": "DBS",
+    "duration": "8 months",
+    "details": "Developed backend services for digital assets custody and exchange using Spring Boot. Implemented a login and dashboard web app in 3 weeks for a DBS Metaverse event using Angular. Experimented with automated software testing and trained a small team using Selenium"
+  },
+  {
+    "year": "2022",
+    "title": "Teaching Assistant / Grader",
+    "company": "DigiPen",
+    "duration": "2 years",
+    "details": "Provided detailed feedback on assignments, ensuring students know why they lose marks. Engaged students in private 1-to-1 online consultations daily during Covid. Wrote progress reports and feedback to administration in order to accommodate students' academic needs and goals"
+  },
+  {
+    "year": "2019",
+    "title": "Software Engineer Intern (Mobile Front-End)",
+    "company": "Activate Interactive",
+    "duration": "4 months",
+    "details": "Developed both iOS/Android mobile app for Republic Polytechnic (RP) using React Native. Started prototyping an internal automation project using UiPath, VB.Net and C#, to reduce manual data entry for company accountants. Research was then presented to the company executives to purchase software licenses and officially setup an automation workflow in the company"
+  },
+  {
+    "year": "2016",
+    "title": "Game Developer Intern (Unity)",
+    "company": "Helix Leisure",
+    "duration": "7 weeks",
+    "details": "Worked together with an 3D artist on a kids arcade game prototype made in Unity. Introduced to essential communication tools such as JIRA, Git, Slack and Scrum. Experience professional teamwork and being part of a game development team and learn the importance of 'Beer Fridays'"
+  }
+]

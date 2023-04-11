@@ -2,7 +2,7 @@ import portfolio from "../data/portfolio.json"
 import PortfolioItem from "./PortfolioItem"
 
 export default function Portfolio() {
-  const data = (portfolio as Project[])
+  const data = (portfolio as Project[]);
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-center">

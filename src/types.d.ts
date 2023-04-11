@@ -5,3 +5,11 @@ type Project = {
   stack: string[],
   link: string,
 }
+
+type Experience = {
+  year: string,
+  title: string,
+  company: string,
+  duration: string,
+  details: string,
+}
