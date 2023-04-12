@@ -14,7 +14,7 @@ export default function TimelineItem({ year, title, company, duration, details }
           <h3 className="text-lg font-semibold text-stone-900">
             {title}
             {" "}
-            <a href="https://dbs.com" className="text-cyan-500">{`@${company}`}</a>
+            <a href="https://dbs.com" className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">{`@${company}`}</a>
           </h3>
 
           <div className="my-1 text-sm font-normal leading-none text-stone-400">

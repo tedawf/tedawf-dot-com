@@ -1,7 +1,7 @@
 export default function PortfolioItem({ title, imgUrl, projectType, stack, link }: Project) {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-black bg-white p-6 relative">
-      <div className="absolute top-0 -right-3 -z-10 w-[103%] h-[104%] rounded-[2rem] bg-black rounded-br-3xl" />
+      <div className="absolute top-0 -right-3 -z-10 w-[103%] h-[104%] rounded-[1.75rem] bg-stone-900 rounded-br-3xl" />
       <a
         href={link}
         target="_blank"
