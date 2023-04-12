@@ -1,9 +1,9 @@
 export default function TimelineItem({ year, title, company, duration, details }: Experience) {
   return (
-    <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
+    <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
       <li className="mb-10 ml-4">
         {/* circle */}
-        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white" />
+        <div className="absolute w-3 h-3 bg-stone-200 dark:bg-stone-800 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-700" />
 
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
 
@@ -11,7 +11,7 @@ export default function TimelineItem({ year, title, company, duration, details }
             {year}
           </span>
 
-          <h3 className="text-lg font-semibold text-stone-900">
+          <h3 className="text-lg font-semibold text-stone-900 dark:text-white">
             {title}
             {" "}
             <a href="https://dbs.com" className="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">{`@${company}`}</a>
@@ -23,7 +23,7 @@ export default function TimelineItem({ year, title, company, duration, details }
 
         </p>
 
-        <p className="my-2 text-base font-normal text-stone-500">
+        <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-200">
           {details}
         </p>
 
