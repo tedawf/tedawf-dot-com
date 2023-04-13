@@ -13,25 +13,26 @@ export default function Contact() {
           <Title>Contact</Title>
           <input type="hidden" name="form-name" value="contact" />
           <input
+            required
             type="text"
             name="name"
             placeholder="Name"
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
           />
           <input
-            type="text"
+            required
+            type="email"
             name="email"
             placeholder="Email"
             className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
           />
           <textarea
+            required
             name="message"
             placeholder="Message"
             rows={10}
             className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
           />
-          {/* add hidden Honeypot input to prevent spams */}
-          <input type="hidden" name="_gotcha" style={{ display: "none !important" }} />
           <button
             type="submit"
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-400 to-purple-500 drop-shadow-md hover:stroke-white"
