@@ -5,12 +5,13 @@ export default function Contact() {
     <div className="flex flex-col mb-10 mx-auto">
       <div className="flex justify-center items-center">
         <form
-          method="POST"
-          className="flex flex-col w-full md:w-7/12"
-          data-netlify="true"
           name="contact"
+          method="POST"
+          data-netlify="true"
+          className="flex flex-col w-full md:w-7/12"
         >
           <Title>Contact</Title>
+          <input type="hidden" name="form-name" value="contact" />
           <input
             type="text"
             name="name"
